@@ -113,9 +113,9 @@ ph-aqi-classification-ml/
 │
 ├── README.md
 ├── requirements.txt
-├── CSELEC2C_Group_3_Implementation.ipynb
-├── CSELEC2C_Group_3_Implementation.pdf
-├── CSELEC2C_Group_3_Manuscript.pdf
+├── CSELEC2C_Group_4_Implementation.ipynb
+├── CSELEC2C_Group_4_Implementation.pdf
+├── CSELEC2C_Group_4_Manuscript.pdf
 │
 ├── outputs/
 │   ├── figures/
