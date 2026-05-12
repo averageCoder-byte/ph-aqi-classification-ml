@@ -10,7 +10,7 @@ This repository contains the implementation for a machine learning project that 
 
 Air pollution remains an environmental and public health concern in Philippine urban areas. This project applies machine learning models to classify AQI severity levels using pollutant concentration features from Philippine city-level air quality records.
 
-The study uses the **PH Philippine Cities Air Quality Index Data 2025** dataset from Kaggle. The target variable is `main.aqi`, which represents AQI severity levels. Since the target is categorical, the task is formulated as a **supervised multiclass classification problem** rather than continuous AQI regression.
+The study uses the **PH Philippine Cities Air Quality Index Data 2025** dataset from Kaggle. The target variable is `main.aqi`, which represents OpenWeather’s 1-to-5 AQI severity scale. Since the target is categorical, the task is formulated as a **supervised multiclass classification problem** rather than continuous AQI regression.
 
 ## Dataset
 
@@ -121,3 +121,27 @@ ph-aqi-classification-ml/
 │   ├── figures/
 │   ├── metrics/
 │   └── models/
+```
+
+## Requirements
+
+Install the required packages using:
+
+```bash
+pip install -r requirements.txt
+```
+
+## How to Run
+1. Open CSELEC2C_Group_4_Implementation.ipynb.
+2. Run all notebook cells in order.
+3. The notebook will download the Kaggle dataset using KaggleHub, merge the monthly files, preprocess the data, train the models, evaluate performance, and generate result figures.
+
+## Reproducibility Notes
+- The dataset is downloaded directly from Kaggle using KaggleHub.
+- A fixed random seed is used where applicable.
+- A stratified 70/15/15 train-validation-test split is used.
+- Results, metrics, and figures are saved under the outputs/ directory.
+
+## License
+
+This repository is intended for academic use as part of a machine learning final project.
