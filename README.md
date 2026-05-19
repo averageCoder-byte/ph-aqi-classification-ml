@@ -12,6 +12,8 @@ Air pollution remains an environmental and public health concern in Philippine u
 
 The study uses the **PH Philippine Cities Air Quality Index Data 2025** dataset from Kaggle. The target variable is `main.aqi`, which represents OpenWeather’s 1-to-5 AQI severity scale. Since the target is categorical, the task is formulated as a **supervised multiclass classification problem** rather than continuous AQI regression.
 
+Because `main.aqi` is derived from pollutant component values in the source API, this project should be interpreted as a model comparison benchmark for reproducing API-based AQI severity labels, not as a causal environmental-health analysis or replacement for official AQI computation.
+
 ## Dataset
 
 Dataset used:
